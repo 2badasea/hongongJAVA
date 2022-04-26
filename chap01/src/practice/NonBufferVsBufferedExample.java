@@ -11,7 +11,7 @@ import java.io.OutputStream;
 public class NonBufferVsBufferedExample {
 
 	public static void main(String[] args) throws Exception {
-		// 성능향상 보조스트림을 사용했을 때와 사용하지 않았을 때의 차이 알아뵈 
+		// 성능향상 보조스트림을 사용했을 때와 사용하지 않았을 때의 차이 알아보기
 		
 		// 기본 스트림생성
 		String originalFilePath1 = 
